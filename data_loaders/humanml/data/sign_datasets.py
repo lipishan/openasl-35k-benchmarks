@@ -118,7 +118,7 @@ class Text2MotionDatasetV2(data.Dataset):
                     pass
 
             if save_raw:
-                save_pkl = '/home/exx/Akib/motion-diffusion-model/data-bin/openasl'
+                save_pkl = './data-bin/motion'
 
                 save_poses = os.path.join(save_pkl, split, 'samples.35k.pkl')
 
@@ -140,7 +140,7 @@ class Text2MotionDatasetV2(data.Dataset):
             #     'length_list': length_list,
             #     'data_dict': data_dict})
         else:
-            save_pkl ='/home/hbml-user/AKIB/motion-diffusion-model/data-bin/openasl'
+            save_pkl ='./data-bin/motion'
             load_poses = os.path.join(save_pkl, split, 'samples.35k.pkl')
             with open(load_poses, "rb") as fs:
                 data_loaded = pkl.load(fs)
