@@ -13,7 +13,7 @@ Prepare the data, we uploaded the data to HuggingFace. use  ```hugginface-cli```
 |  |-- texts/
 ```
 
-> Note, due to limit to per folder in Huggingface, we uploaded data in parts, please ensure to combine them in a single folder called ```motions```. ```texts``` can be found here: [GitHub Pages](https://pages.github.com/).
+> Note, due to limit to per folder in Huggingface, we uploaded data in parts, please ensure to combine them in a single folder called ```motions```. ```data``` can be found here: [Data](https://huggingface.co/datasets/dongludeeplearning/OpenASL3D_Dataset/).
 
 
 ## Train
