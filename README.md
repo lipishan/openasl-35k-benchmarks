@@ -1,6 +1,6 @@
 # Large-Scale 3D Representations for Continuous American Sign Language Understanding
 
-This is the official Repo for "Large-Scale 3D Representations for Continuous American Sign Language Understanding".
+This is the official Repo for "Large-Scale 3D Representations for Continuous American Sign Language Understanding". This sepcific codebase is for Sign Language Production.
 
 ## Dataset:
 Prepare the data, we uploaded the data to HuggingFace. use  ```hugginface-cli``` to download the data to under ```data-bin``` under the main folder. Create one, if not present. The folder should looks like:
@@ -23,7 +23,7 @@ Prepare the data, we uploaded the data to HuggingFace. use  ```hugginface-cli```
 |  |-- texts/
 ```
 
-> Note, due to limit to per folder in Huggingface, we uploaded data in parts, please ensure to combine them in a single folder called ```motions```. ```data``` can be found here: [Data](https://huggingface.co/datasets/dongludeeplearning/OpenASL3D_Dataset/), ```texts``` folder can be found here: [texts](https://buffalo.box.com/s/5fbomz6rr007dcrvc15ek7uzur13wypl). For OpenASl-35k, [download](https://buffalo.box.com/s/15nanqj5bmw0vnab6ekk0qrmyrge602r). Please ensure to unzip the ```texts``` and ```openasl-35k pickle``` for ruuning
+> Sign Representations can be found here: [Data](https://huggingface.co/datasets/dongludeeplearning/OpenASL3D_Dataset/), ```texts``` folder can be found here: [texts](https://buffalo.box.com/s/5fbomz6rr007dcrvc15ek7uzur13wypl). For OpenASl-35k, [download](https://buffalo.box.com/s/15nanqj5bmw0vnab6ekk0qrmyrge602r). Please ensure to unzip the ```texts``` and ```openasl-35k pickle``` for ruuning
 
 
 
