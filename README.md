@@ -33,4 +33,3 @@ bash run_train.sh
 ```
 
 > For Sign Language Translation pipeline, please [refer](https://github.com/neccam/slt)
-> Sign Language Production code based on [github](https://github.com/GuyTevet/motion-diffusion-model)
