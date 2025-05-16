@@ -1,5 +1,5 @@
 # Large-Scale 3D Representations for Continuous American Sign Language Understanding
-=======
+
 This is the official Repo for "Large-Scale 3D Representations for Continuous American Sign Language Understanding".
 
 ## Dataset:
