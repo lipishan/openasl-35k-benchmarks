@@ -23,7 +23,7 @@ Prepare the data, we uploaded the data to HuggingFace. use  ```hugginface-cli```
 |  |-- texts/
 ```
 
-> Note, due to limit to per folder in Huggingface, we uploaded data in parts, please ensure to combine them in a single folder called ```motions```. ```data``` can be found here: [Data](https://huggingface.co/datasets/dongludeeplearning/OpenASL3D_Dataset/), ```texts``` folder can be found here: [texts](https://buffalo.box.com/s/5fbomz6rr007dcrvc15ek7uzur13wypl). For OpenASl-35k, [download]()
+> Note, due to limit to per folder in Huggingface, we uploaded data in parts, please ensure to combine them in a single folder called ```motions```. ```data``` can be found here: [Data](https://huggingface.co/datasets/dongludeeplearning/OpenASL3D_Dataset/), ```texts``` folder can be found here: [texts](https://buffalo.box.com/s/5fbomz6rr007dcrvc15ek7uzur13wypl). For OpenASl-35k, [download](https://buffalo.box.com/s/15nanqj5bmw0vnab6ekk0qrmyrge602r). Please ensure to unzip the ```texts``` and ```openasl-35k pickle``` for ruuning
 
 
 
@@ -31,3 +31,6 @@ Prepare the data, we uploaded the data to HuggingFace. use  ```hugginface-cli```
 ```
 bash run_train.sh
 ```
+
+> For Sign Language Translation pipeline, please [refer](https://github.com/neccam/slt)
+> Sign Language Production code based on [github](https://github.com/GuyTevet/motion-diffusion-model)
