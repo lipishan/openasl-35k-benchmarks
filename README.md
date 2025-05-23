@@ -1,4 +1,6 @@
-# Large-Scale 3D Representations for Continuous American Sign Language Understanding
+# Large-Scale 3D Representations for Continuous American Sign Language Understanding [Inactive]
+
+Note: Please refer to the changed repository: [github](https://github.com/lipishan/openasl-35k-benchmarks-v2/tree/main)
 
 This is the official Repo for "Large-Scale 3D Representations for Continuous American Sign Language Understanding". This sepcific codebase is for Sign Language Production.
 
